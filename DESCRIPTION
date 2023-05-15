@@ -1,0 +1,18 @@
+Package: DNKF
+Title: Differential Network Knockoff Filter
+Version: 1.0
+Description: Differential network ananlyse using Knockoff.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: DensParcorr, doParallel, knockoff, parallel
+Depends: foreach
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2023-05-10 02:08:08 UTC
+Author: Zhendong Hou, Jiadong Ji
+Maintainer: Zhendong Hou, Jiadong Ji <houzhendong@mail.sdu.edu.cn>
+
+
