@@ -1,0 +1,20 @@
+Package: DNKF
+Title: Differential Network Knockoff Filter
+Version: 2.0
+Authors@R: 
+    person(given = "Jiadong", 
+           family = "Ji", 
+           role = c("aut", "cre"), 
+           email = "jiadong@sdu.edu.cn")
+Description: Differential network ananlyse using Knockoff.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: foreach
+Imports: clime, DensParcorr, doParallel, glmnet, glmnetUtils, knockoff,
+        methods, robustbase
+NeedsCompilation: no
+Packaged: 2023-11-25 10:20:35 UTC; houzh
+Author: Jiadong Ji [aut, cre]
+Maintainer: Jiadong Ji <jiadong@sdu.edu.cn>
